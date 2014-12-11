@@ -5,11 +5,12 @@ import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 
+// the main class
 public class Main extends JFrame {
     private JTextField field = new JTextField();
     private JEditorPane display = new JEditorPane();
     private JScrollPane scrollPane = new JScrollPane(display);
-
+//the main function
     public static void main(String[] args) {
 	    Main browser = new Main();
         browser.frameHandler();
